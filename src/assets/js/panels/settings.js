@@ -53,8 +53,8 @@ class Settings {
                 let id = e.target.id
                 if (e.target.classList.contains('account')) {
                     popupAccount.openPopup({
-                        title: 'Connexion',
-                        content: 'Veuillez patienter...',
+                        title: 'Conexión',
+                        content: 'Por favor, espere...',
                         color: 'var(--color)'
                     })
 
@@ -72,8 +72,8 @@ class Settings {
 
                 if (e.target.classList.contains("delete-profile")) {
                     popupAccount.openPopup({
-                        title: 'Connexion',
-                        content: 'Veuillez patienter...',
+                        title: 'Conexión',
+                        content: 'Por favor, espere...',
                         color: 'var(--color)'
                     })
                     await this.db.deleteData('accounts', id);
@@ -223,12 +223,12 @@ class Settings {
 
         resolutionReset.addEventListener("click", async () => {
             let configClient = await this.db.readData('configClient')
-            configClient.game_config.screen_size = { width: '854', height: '480' };
-            width.value = '854';
-            height.value = '480';
+            configClient.game_config.screen_size = { width: '1024', height: '768' };
+            width.value = '1024';
+            height.value = '768';
             await this.db.updateData('configClient', configClient);
         })
-    }
+    }                   
 
     async launcher() {
         let configClient = await this.db.readData('configClient');

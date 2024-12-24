@@ -1,7 +1,7 @@
 {
     "name": "Pingas-Launcher",
     "preductname": "Pingas Launcher",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "description": "A Pingas's Studios Minecraft Launcher",
     "main": "src/app.js",
     "author": {
