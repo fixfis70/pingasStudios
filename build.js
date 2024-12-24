@@ -111,7 +111,7 @@ class Index {
                 }
             }
         }).then(() => {
-            console.log('le build est terminé')
+            console.log('la compilación ha terminado')
         }).catch(err => {
             console.error('Error during build!', err)
         })
