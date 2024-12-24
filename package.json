@@ -1,15 +1,15 @@
 {
     "name": "Pingas-Launcher",
     "preductname": "Pingas Launcher",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "description": "A Pingas's Studios Minecraft Launcher",
     "main": "src/app.js",
     "author": {
         "name": "fixfis",
         "email": "baitllanos@gamil.com",
-        "url": "https://github.com/luuxis"
+        "url": "https://github.com/fixfis70"
     },
-    "url": "https://pingasstudios.wstr.fr/test",
+    "url": "https://pingasstudios.wstr.fr/pingasLauncher",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
